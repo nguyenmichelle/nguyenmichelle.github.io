@@ -5116,7 +5116,19 @@ $ vagrant up
             </div>
 
 
-            <p>IMPORTANT: From the VM command line, navigate to the code directory, install dependencies, and set up database.<br>
+            <p>IMPORTANT: From the VM command line (in the same place where you typed <code>vagrant ssh</code>), downgrade the php version of your Homestead instance to php71.<br>
+            </p>
+
+            <div class="highlight"><pre class="highlight plaintext"><code>vagrant@homestead:$ sudo update-alternatives --set php /usr/bin/php7.1
+vagrant@homestead:$ sudo update-alternatives --set phar /usr/bin/phar7.1
+vagrant@homestead:$ sudo update-alternatives --set phar.phar /usr/bin/phar.phar7.1
+vagrant@homestead:$ sudo update-alternatives --set phpize /usr/bin/phpize7.1
+vagrant@homestead:$ sudo update-alternatives --set php-config /usr/bin/php-config7.1
+</code></pre>
+            </div>
+
+
+            <p>While still in the VM command line navigate to the code directory, install dependencies, and set up database.<br>
             </p>
 
             <div class="highlight"><pre class="highlight plaintext"><code>vagrant@homestead:$ cd ~/code/ufis-bnb
@@ -5344,8 +5356,19 @@ $ vagrant ssh
 </code></pre>
             </div>
 
+                        <p>IMPORTANT: From the VM command line (in the same place where you typed <code>vagrant ssh</code>), downgrade the php version of your Homestead instance to php71.<br>
+            </p>
 
-            <p>IMPORTANT: From the VM command line (in the same place where you typed <code>vagrant ssh</code>), navigate to the code directory, install dependencies, and set up database.<br>
+            <div class="highlight"><pre class="highlight plaintext"><code>vagrant@homestead:$ sudo update-alternatives --set php /usr/bin/php7.1
+vagrant@homestead:$ sudo update-alternatives --set phar /usr/bin/phar7.1
+vagrant@homestead:$ sudo update-alternatives --set phar.phar /usr/bin/phar.phar7.1
+vagrant@homestead:$ sudo update-alternatives --set phpize /usr/bin/phpize7.1
+vagrant@homestead:$ sudo update-alternatives --set php-config /usr/bin/php-config7.1
+</code></pre>
+            </div>
+
+
+            <p>While still in the VM command line navigate to the code directory, install dependencies, and set up database.<br>
             </p>
 
             <div class="highlight"><pre class="highlight plaintext"><code>vagrant@homestead:$ cd ~/code/ufis-bnb
