@@ -5067,12 +5067,13 @@ features:
 
 
             <p>Edit the <code>sites</code> property of the <code>Homestead.yaml</code> file. In this case, the project directory name
-                is <code>ufis-bnb</code>.<br>
+                is <code>ufis-bnb</code>. Also update the php version here.<br>
             </p>
 
             <div class="highlight"><pre class="highlight plaintext"><code>sites:
     - map: homestead.test
       to: /home/vagrant/code/ufis-bnb/public
+      php: "7.1"
 </code></pre>
             </div>
 
@@ -5116,7 +5117,14 @@ $ vagrant up
             </div>
 
 
-            <p>IMPORTANT: From the VM command line (in the same place where you typed <code>vagrant ssh</code>), downgrade the php version of your Homestead instance to php71.<br>
+            <p>IMPORTANT: From the VM command line (in the same place where you typed <code>vagrant ssh</code>), downgrade the php version of your Homestead instance to php71 by pasting this block:<br>
+                <code>sudo update-alternatives --set php /usr/bin/php7.1<br>
+sudo update-alternatives --set phar /usr/bin/phar7.1<br>
+sudo update-alternatives --set phar.phar /usr/bin/phar.phar7.1<br>
+sudo update-alternatives --set phpize /usr/bin/phpize7.1<br>
+sudo update-alternatives --set php-config /usr/bin/php-config7.1<br>
+</code>
+                like so:<br>
             </p>
 
             <div class="highlight"><pre class="highlight plaintext"><code>vagrant@homestead:$ sudo update-alternatives --set php /usr/bin/php7.1
