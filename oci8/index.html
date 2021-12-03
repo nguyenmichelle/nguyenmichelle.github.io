@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+            :root{--accent-brand:#3b49df;--link-brand-color:var(--accent-brand)}a{color:var(--link-brand-color);text-decoration:none}@font-face{font-family:OpenDyslexic;src:url(https://practicaldev-herokuapp-com.freetls.fastly.net/assets/OpenDyslexic-Regular-e2da53e6ae0d57455acaecf9151769780f875f17ce0aed72d90a7be3edf98b57.otf)}@font-face{font-family:OpenDyslexic-Bold;src:url(https://practicaldev-herokuapp-com.freetls.fastly.net/assets/OpenDyslexic-Bold-84cc2b8adaffe43edd5295004b627caac868f58d7e21e4afb019559312acfa5a.otf)}@font-face{font-family:OpenDyslexic-Bolditalic;src:url(https://practicaldev-herokuapp-com.freetls.fastly.net/assets/OpenDyslexic-BoldItalic-f4713bbb9a294df6ab38b28b0b5ec0547ed987a886f3ae46aec1d601de2109ae.otf)}@font-face{font-family:OpenDyslexic-Italic;src:url(https://practicaldev-herokuapp-com.freetls.fastly.net/assets/OpenDyslexic-Italic-6abd13b9690e8140655fcda16f7a3d2a1fc1f5a4da61895cce7bed9eb774a1af.otf)}body{background:var(--body-bg);color:var(--body-color);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";padding:0;margin:0;overflow-y:scroll;padding-top:56px}:focus:active{outline:0}:focus:not(.focus-visible){outline:0}a{color:var(--link-brand-color);text-decoration:none}pre{background:#29292e;border-radius:2px;overflow-x:scroll;font-size:11px;padding:10px;color:#eff0f9;line-height:1.42em;font-size:13px;width:calc(100% - 25px)}@media screen and (min-width:380px){pre{font-size:15px}}pre code{background:#29292e;color:#eff0f9;white-space:pre}article{padding:0 0;position:relative}.container{width:880px;max-width:100%;margin:0 auto 20px;text-align:left;background:var(--card-bg);border:none;border:var(--theme-container-border,none);box-shadow:0 1px 1px rgba(10,10,10,.1),0 1px 2px rgba(10,10,10,.1),0 0 1px rgba(10,10,10,.8);box-shadow:var(--theme-container-box-shadow,0 1px 1px rgba(10,10,10,.1),0 1px 2px rgba(10,10,10,.1),0 0 1px rgba(10,10,10,.8))}@media screen and (min-width:950px){.container{border-radius:3px;margin-bottom:12px}}@media screen and (min-width:950px){.container{border-radius:3px;margin-top:24px}}.container.article{position:relative;z-index:5}.container .title{z-index:6;position:relative;width:81%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";max-width:710px;margin:auto}@media screen and (max-width:750px){.container .title{width:90%}}@media screen and (max-width:430px){.container .title{width:93%}}.container .title h1{margin:0 auto;padding:14px 0 7px;font-weight:700;min-height:40px;font-size:calc(2vw + 26px);word-break:break-word;line-height:1.28em}@media screen and (min-width:1600px){.container .title h1{font-size:57px}}.container .title h1.medium{font-size:calc(1.82vw + 25px)}@media screen and (min-width:1600px){.container .title h1.medium{font-size:47px}}.container .body{margin:auto;width:82%;font-family:Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;font-size:21px;line-height:32px;background:var(--card-bg);position:relative;z-index:5;padding:5px 0;overflow-wrap:break-word}.container .body p{margin:.95em 0 1.2em;padding:.2em}.container .body ul{padding-left:6px;margin:.8em .7em .8em 1.9em}.container .body ul{list-style-type:square}.container .body li{margin:.3em auto}@media screen and (max-width:750px){.container .body{width:92%}}@media screen and (max-width:430px){.container .body{font-size:17.5px;line-height:26px;width:94%;margin-left:3%}.container .body ul{margin:.8em .7em .8em 1.4em}}.container .body code{margin:auto;background:rgba(0,0,0,.1);padding:.1em .3em 0;border-radius:2px;font-size:.84em;vertical-align:0;max-width:100%;line-height:1.6em}.container .body pre{background:#29292e;border-radius:2px;overflow-x:auto;color:#eff0f9;line-height:1.42em;padding-left:4%;padding-right:7%;font-size:.7em;width:97%;margin-left:-3%;padding-top:6%;padding-bottom:6%;border-radius:0;overflow-wrap:normal}@media screen and (min-width:430px){.container .body pre{width:111%;margin-left:-11%;padding-left:9%;padding-right:2%}}.container .body pre code{background:#29292e;color:#eff0f9;white-space:pre}.container .body img{height:auto;position:relative;display:block;margin:auto;left:-4%;max-width:108%}@media screen and (min-width:430px){.container .body img{left:-6px;max-width:calc(100% + 12px)}}.container .body a.article-body-image-wrapper{cursor:zoom-in}@media screen and (min-width:1365px){.container .article-actions a:focus-visible,.container .article-actions button:focus-visible{outline:0;box-shadow:0 0 4px #666!important}}div.highlight pre.highlight code{font-size:inherit;padding:0}.highlight{background:#29292e;color:#f8f8f2}
+    </style>
+
+    <style>
+        .home {
+            overflow: hidden;
+            position: relative;
+            margin: auto;
+            max-width: 1250px;
+        }
+        .nav {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+<div
+class="container article">
+<article>
+<header class="title" id="main-title">
+<h1 class="medium">
+Installing OCI8 for use with UCV and MAMP PRO
+</h1>
+</header>
+<div class="body" id="article-body">
+<p>The following steps are to get the <code>oci8</code> extension running locally with MAMP PRO. <code>oci8</code> is necessary in order to access our Oracle databases in Laravel.<br><br> These instructions assume that we are starting from scratch, so if you have already completed some of the steps, feel free to repeat them by uninstalling and re-installing or simply skip them (this is not recommended because it'll be harder to track down where things went wrong in the case of accidents).</p>
+
+<p>First, install MAMP PRO (version 5.7). *Note these instructions won't work with newer versions of MAMP.</p>
+
+<ul>
+<li>Download - MAMP PRO <a href="https://www.mamp.info/en/downloads/older-versions/">https://www.mamp.info/en/downloads/older-versions/</a>
+</li>
+</ul>
+
+<p>Once your MAMP PRO instance is registered, open up the application and in the sidebar under the "Languages" section, click on PHP. Change the default version to 7.2.10 (in our example) or anything around there. Save and restart your servers.<br>
+</p>
+
+<p>You'll want to add some aliases so that the <code>oci8</code> module gets installed on the PHP files that MAMP will be using. Open up terminal and type:<br>
+</p>
+
+<div class="highlight"><pre class="highlight plaintext"><code>$ sudo nano ~/.bash_profile</code></pre>
+</div>
+
+<p>Your <code>.bash_profile</code> should be appear in terminal after entering your system password. Paste these lines to the file:<br></p>
+
+<div class="highlight"><pre class="highlight plaintext"><code>##MAMP PHP PATH
+export PATH="/Applications/MAMP/bin/php/php7.2.10/bin:$PATH"
+
+##MAMP ALIASES
+alias php='/Applications/MAMP/bin/php/php7.2.10/bin/php -c "/Library/Application Support/appsolute/MAMP PRO/conf/php.ini"'
+alias pear='/Applications/MAMP/bin/php/php7.2.10/bin/pear'
+alias pecl='/Applications/MAMP/bin/php/php7.2.10/bin/pecl' 
+</code></pre>
+</div>
+
+<p>Make sure that the php version in the alias strings match that of the default version you set in MAMP PRO. To save your file, press <code>CONTROL-X</code>, <code>y</code>, and <code>return</code>.<br>
+</p>
+
+<p>Source your <code>.bash_profile</code> file<br></p>
+<div class="highlight"><pre class="highlight plaintext"><code>$ source ~/.bash_profile</code>
+</div>
+
+
+<p>Install Homebrew locally by running this command in terminal:<br>
+</p>
+
+<div class="highlight"><pre class="highlight plaintext"><code>$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+</code></pre>
+</div>
+
+<p>After that is complete, we need to install the <code>autoconf</code> package through Homebrew to supplement the installation of <code>oci8</code>. Do so by running this command next:<br>
+</p>
+
+<div class="highlight"><pre class="highlight plaintext"><code>$ brew install autoconf
+</code></pre>
+</div>
+
+<p>Prepare Oracle Instant Client for the <code>oci8</code> install.<br></p>
+
+<ul>
+<li>Download - Instant Client by Oracle <a href="https://www.oracle.com/database/technologies/instant-client/macos-intel-x86-downloads.html">https://www.oracle.com/database/technologies/instant-client/macos-intel-x86-downloads.html</a>
+</li>
+</ul>
+
+<p>You're going to want to download both the basic package and the SDK package. At the time this was written, we downloaded version 19.3.0.0.0's packages.<br><br>Once those are downloaded, un-zip them both. Place the <code>sdk</code> folder from the un-zipped SDK package folder into your unzipped basic package folder. Rename the folder with the basic package contents and the <code>sdk</code> folder to <code>instantclient</code>.</p>
+
+
+<p>Create a new folder, <code>lib</code> in your <code>usr/local/</code> folder. If you can't find the <code>usr</code> directory, make sure you have hidden files showing in your finder. Move your <code>instantclient</code> folder to the <code>usr/local/lib</code> folder.<br></p>
+
+<p>Update permissions on your <code>usr/local/lib</code> directory:</p>
+
+<div class="highlight"><pre class="highlight plaintext"><code>$ sudo chmod -R 777 /usr/local/lib</code></pre></div>
+
+<p>Next, install download PEAR & PECL. In terminal (making sure you are currently in your home directory first), run:</p>
+
+<div class="highlight"><pre class="highlight plaintext"><code>$ cd ~
+$ curl -O https://pear.php.net/go-pear.phar
+</code></pre>
+</div>
+
+<p>Then run:</p>
+
+<div class="highlight"><pre class="highlight plaintext"><code>$ sudo php -d detect_unicode=0 go-pear.phar
+</code></pre>
+</div>
+
+<p>When prompted, enter <code>1</code>, then <code>/usr/local/pear</code>, then <code>enter</code>. Then, type <code>4</code>, then <code>/usr/local/bin</code>, and <code>enter</code>.<br>You will hit <code>enter</code> one more time to install PEAR. When prompted to change the contents of <code>php.ini</code>, type <code>n</code>, and then <code>enter</code> once more.<br><br>You should now see a thank-you message if these steps were properly taken.</p>
+
+<p>Check if PEAR works with this command:</p>
+
+<div class="highlight"><pre class="highlight plaintext"><code>$ sudo pear version
+</code></pre>
+</div>
+
+<p>You should now see the PEAR and PHP version in terminal.<br>
+</p>
+
+<p>Now we can install the <code>oci8</code> module (must be version 2.2.0 to be compatible with php7). In terminal, type:<br></p>
+
+<div class="highlight"><pre class="highlight plaintext"><code>$ sudo pecl install oci8-2.2.0</code></pre>
+</div>
+
+
+<p>When prompted, enter:<br>
+</p>
+
+<div class="highlight"><pre class="highlight plaintext"><code>instantclient,/usr/local/lib/instantclient
+</code></pre>
+</div>
+
+
+<p>Open up MAMP PRO to edit your <code>php.ini</code> file. To do so, click on PHP under the Languages section again. Next to the default PHP version is an arrow. Click on that arrow. A text editor with <code>php.ini</code> should open. Do a search for "Dynamic Extensions" in the file. In that section, add this line:</p>
+
+<div class="highlight"><pre class="highlight plaintext"><code>extension=oci8.so
+</code></pre>
+</div>
+
+
+<p>Save the file, exit the editor, and restart servers. To be sure that <code>oci8</code> was properly installed, you can click on the WebStart button in MAMP PRO. In the page that opens, click on phpinfo. There should be a section for the <code>oci8</code> module (on top of the openssl module) if everything was done correctly.<br>
+</p>
+
+<p>Now, we are ready to continue with the rest of the process. Clone the repository to your desired location, set-up Composer and Laravel, set up the CV host in MAMP, etc. If you run <code>composer install</code> in your repository and are still getting oci8 errors, run <code>php --ini</code> in terminal and be sure to locate those php.ini files in the listed locations and include the <code>extension=oci8.so</code> in each of those as well.</p>
+
+</div>
+</article>
+</div>
+</article>
+</div>
+
+</body>
+</html>
